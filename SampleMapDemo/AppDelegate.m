@@ -2,21 +2,22 @@
 //  AppDelegate.m
 //  SampleMapDemo
 //
-//  Created by Roger on 1/10/17.
+//  Created by Yashwanth on 1/10/17.
 //  Copyright © 2017 Yashwanth. All rights reserved.
 //
 
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
-
 @end
+NSString *const apikey = @"AIzaSyAD4T6vRO6QrhWDSbSli6QFUiEvL9FfEM0";
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //[GMSServices provideAPIKey:apikey];
     return YES;
 }
 

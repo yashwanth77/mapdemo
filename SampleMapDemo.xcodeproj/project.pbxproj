@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49B912822A7370783CFA13BE /* libPods-SampleMapDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C7A1AC1A96E42DB3955E3B /* libPods-SampleMapDemo.a */; };
 		9900DA111E2550300088AEAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9900DA101E2550300088AEAD /* main.m */; };
 		9900DA141E2550310088AEAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9900DA131E2550310088AEAD /* AppDelegate.m */; };
 		9900DA171E2550310088AEAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9900DA161E2550310088AEAD /* ViewController.m */; };
@@ -15,6 +16,22 @@
 		9900DA1F1E2550310088AEAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9900DA1D1E2550310088AEAD /* LaunchScreen.storyboard */; };
 		9900DA2A1E2550370088AEAD /* SampleMapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9900DA291E2550370088AEAD /* SampleMapDemoTests.m */; };
 		9900DA351E2550370088AEAD /* SampleMapDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9900DA341E2550370088AEAD /* SampleMapDemoUITests.m */; };
+		9900DA4D1E2554E50088AEAD /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9900DA4C1E2554E50088AEAD /* Accelerate.framework */; };
+		9900DA4F1E2554ED0088AEAD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9900DA4E1E2554ED0088AEAD /* CoreData.framework */; };
+		9900DA511E2554FF0088AEAD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9900DA501E2554FF0088AEAD /* CoreLocation.framework */; };
+		9900DA531E2555080088AEAD /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9900DA521E2555080088AEAD /* CoreText.framework */; };
+		9900DA551E25554F0088AEAD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9900DA541E25554F0088AEAD /* OpenGLES.framework */; };
+		9900DA571E2555570088AEAD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9900DA561E2555570088AEAD /* QuartzCore.framework */; };
+		9900DA591E25555F0088AEAD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9900DA581E25555F0088AEAD /* SystemConfiguration.framework */; };
+		9900DA5B1E2555720088AEAD /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9900DA5A1E2555720088AEAD /* libicucore.tbd */; };
+		9900DA5D1E2555850088AEAD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9900DA5C1E2555850088AEAD /* libz.tbd */; };
+		9900DA5F1E2555910088AEAD /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9900DA5E1E2555910088AEAD /* libc++.tbd */; };
+		9900DA611E255E740088AEAD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9900DA601E255E740088AEAD /* AVFoundation.framework */; };
+		9900DA631E255E830088AEAD /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9900DA621E255E830088AEAD /* GLKit.framework */; };
+		9900DA651E255E970088AEAD /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9900DA641E255E970088AEAD /* ImageIO.framework */; };
+		9900DA6F1E2581780088AEAD /* ServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9900DA6E1E2581780088AEAD /* ServiceManager.m */; };
+		9900DAB91E2598AD0088AEAD /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9900DAB81E2598AD0088AEAD /* Annotation.m */; };
+		9900DABC1E259CA10088AEAD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9900DABB1E259CA10088AEAD /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63FA883E2503528BCD5C5664 /* Pods-SampleMapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleMapDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleMapDemo/Pods-SampleMapDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		79D776E0D34AE61649BC234A /* Pods-SampleMapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleMapDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleMapDemo/Pods-SampleMapDemo.release.xcconfig"; sourceTree = "<group>"; };
 		9900DA0C1E25502F0088AEAD /* SampleMapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleMapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9900DA101E2550300088AEAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9900DA121E2550300088AEAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +70,26 @@
 		9900DA301E2550370088AEAD /* SampleMapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleMapDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9900DA341E2550370088AEAD /* SampleMapDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleMapDemoUITests.m; sourceTree = "<group>"; };
 		9900DA361E2550380088AEAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9900DA4C1E2554E50088AEAD /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		9900DA4E1E2554ED0088AEAD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9900DA501E2554FF0088AEAD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9900DA521E2555080088AEAD /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		9900DA541E25554F0088AEAD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9900DA561E2555570088AEAD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9900DA581E25555F0088AEAD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9900DA5A1E2555720088AEAD /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		9900DA5C1E2555850088AEAD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9900DA5E1E2555910088AEAD /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9900DA601E255E740088AEAD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9900DA621E255E830088AEAD /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		9900DA641E255E970088AEAD /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		9900DA6D1E2581780088AEAD /* ServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceManager.h; sourceTree = "<group>"; };
+		9900DA6E1E2581780088AEAD /* ServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceManager.m; sourceTree = "<group>"; };
+		9900DAB71E2598AD0088AEAD /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		9900DAB81E2598AD0088AEAD /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		9900DABA1E259CA10088AEAD /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		9900DABB1E259CA10088AEAD /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E7C7A1AC1A96E42DB3955E3B /* libPods-SampleMapDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleMapDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +97,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9900DA651E255E970088AEAD /* ImageIO.framework in Frameworks */,
+				9900DA631E255E830088AEAD /* GLKit.framework in Frameworks */,
+				9900DA611E255E740088AEAD /* AVFoundation.framework in Frameworks */,
+				9900DA5F1E2555910088AEAD /* libc++.tbd in Frameworks */,
+				9900DA5D1E2555850088AEAD /* libz.tbd in Frameworks */,
+				9900DA5B1E2555720088AEAD /* libicucore.tbd in Frameworks */,
+				9900DA591E25555F0088AEAD /* SystemConfiguration.framework in Frameworks */,
+				9900DA571E2555570088AEAD /* QuartzCore.framework in Frameworks */,
+				9900DA551E25554F0088AEAD /* OpenGLES.framework in Frameworks */,
+				9900DA531E2555080088AEAD /* CoreText.framework in Frameworks */,
+				9900DA511E2554FF0088AEAD /* CoreLocation.framework in Frameworks */,
+				9900DA4F1E2554ED0088AEAD /* CoreData.framework in Frameworks */,
+				9900DA4D1E2554E50088AEAD /* Accelerate.framework in Frameworks */,
+				49B912822A7370783CFA13BE /* libPods-SampleMapDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +131,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		971B0947C74FD05C03CA15F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63FA883E2503528BCD5C5664 /* Pods-SampleMapDemo.debug.xcconfig */,
+				79D776E0D34AE61649BC234A /* Pods-SampleMapDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9900DA031E25502A0088AEAD = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +147,8 @@
 				9900DA281E2550370088AEAD /* SampleMapDemoTests */,
 				9900DA331E2550370088AEAD /* SampleMapDemoUITests */,
 				9900DA0D1E25502F0088AEAD /* Products */,
+				9900DA4B1E2554E50088AEAD /* Frameworks */,
+				971B0947C74FD05C03CA15F4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +165,11 @@
 		9900DA0E1E25502F0088AEAD /* SampleMapDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9900DA121E2550300088AEAD /* AppDelegate.h */,
-				9900DA131E2550310088AEAD /* AppDelegate.m */,
-				9900DA151E2550310088AEAD /* ViewController.h */,
-				9900DA161E2550310088AEAD /* ViewController.m */,
-				9900DA181E2550310088AEAD /* Main.storyboard */,
-				9900DA1B1E2550310088AEAD /* Assets.xcassets */,
-				9900DA1D1E2550310088AEAD /* LaunchScreen.storyboard */,
+				9900DABE1E25B8620088AEAD /* App */,
+				9900DA6C1E25814D0088AEAD /* Services */,
+				9900DAB61E2597C70088AEAD /* Model */,
+				9900DABD1E25B5610088AEAD /* Controllers */,
+				9900DABF1E25B87F0088AEAD /* StoryBoard */,
 				9900DA201E2550310088AEAD /* Info.plist */,
 				9900DA0F1E2550300088AEAD /* Supporting Files */,
 			);
@@ -140,6 +202,75 @@
 			path = SampleMapDemoUITests;
 			sourceTree = "<group>";
 		};
+		9900DA4B1E2554E50088AEAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9900DA641E255E970088AEAD /* ImageIO.framework */,
+				9900DA621E255E830088AEAD /* GLKit.framework */,
+				9900DA601E255E740088AEAD /* AVFoundation.framework */,
+				9900DA5E1E2555910088AEAD /* libc++.tbd */,
+				9900DA5C1E2555850088AEAD /* libz.tbd */,
+				9900DA5A1E2555720088AEAD /* libicucore.tbd */,
+				9900DA581E25555F0088AEAD /* SystemConfiguration.framework */,
+				9900DA561E2555570088AEAD /* QuartzCore.framework */,
+				9900DA541E25554F0088AEAD /* OpenGLES.framework */,
+				9900DA521E2555080088AEAD /* CoreText.framework */,
+				9900DA501E2554FF0088AEAD /* CoreLocation.framework */,
+				9900DA4E1E2554ED0088AEAD /* CoreData.framework */,
+				9900DA4C1E2554E50088AEAD /* Accelerate.framework */,
+				E7C7A1AC1A96E42DB3955E3B /* libPods-SampleMapDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9900DA6C1E25814D0088AEAD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9900DA6D1E2581780088AEAD /* ServiceManager.h */,
+				9900DA6E1E2581780088AEAD /* ServiceManager.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		9900DAB61E2597C70088AEAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9900DAB71E2598AD0088AEAD /* Annotation.h */,
+				9900DAB81E2598AD0088AEAD /* Annotation.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9900DABD1E25B5610088AEAD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9900DABB1E259CA10088AEAD /* DetailViewController.m */,
+				9900DABA1E259CA10088AEAD /* DetailViewController.h */,
+				9900DA151E2550310088AEAD /* ViewController.h */,
+				9900DA161E2550310088AEAD /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9900DABE1E25B8620088AEAD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9900DA1B1E2550310088AEAD /* Assets.xcassets */,
+				9900DA131E2550310088AEAD /* AppDelegate.m */,
+				9900DA121E2550300088AEAD /* AppDelegate.h */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		9900DABF1E25B87F0088AEAD /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				9900DA181E2550310088AEAD /* Main.storyboard */,
+				9900DA1D1E2550310088AEAD /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9900DA391E2550380088AEAD /* Build configuration list for PBXNativeTarget "SampleMapDemo" */;
 			buildPhases = (
+				067728100EFD999354F6A467 /* [CP] Check Pods Manifest.lock */,
 				9900DA081E25502B0088AEAD /* Sources */,
 				9900DA091E25502B0088AEAD /* Frameworks */,
 				9900DA0A1E25502B0088AEAD /* Resources */,
+				B08094E99F57C9FC594A3F3F /* [CP] Embed Pods Frameworks */,
+				0505F58B661EC3EE69149274 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,14 +402,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0505F58B661EC3EE69149274 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleMapDemo/Pods-SampleMapDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		067728100EFD999354F6A467 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B08094E99F57C9FC594A3F3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleMapDemo/Pods-SampleMapDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9900DA081E25502B0088AEAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9900DAB91E2598AD0088AEAD /* Annotation.m in Sources */,
 				9900DA171E2550310088AEAD /* ViewController.m in Sources */,
 				9900DA141E2550310088AEAD /* AppDelegate.m in Sources */,
 				9900DA111E2550300088AEAD /* main.m in Sources */,
+				9900DA6F1E2581780088AEAD /* ServiceManager.m in Sources */,
+				9900DABC1E259CA10088AEAD /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,23 +605,43 @@
 		};
 		9900DA3A1E2550380088AEAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63FA883E2503528BCD5C5664 /* Pods-SampleMapDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					.,
+				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = SampleMapDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = local.SampleMapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/AFNetworking\"";
 			};
 			name = Debug;
 		};
 		9900DA3B1E2550380088AEAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D776E0D34AE61649BC234A /* Pods-SampleMapDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					.,
+				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = SampleMapDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = local.SampleMapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/AFNetworking\"";
 			};
 			name = Release;
 		};
@@ -505,6 +710,7 @@
 				9900DA3B1E2550380088AEAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9900DA3C1E2550380088AEAD /* Build configuration list for PBXNativeTarget "SampleMapDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +719,7 @@
 				9900DA3E1E2550380088AEAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9900DA3F1E2550380088AEAD /* Build configuration list for PBXNativeTarget "SampleMapDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +728,7 @@
 				9900DA411E2550380088AEAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
